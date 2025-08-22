@@ -1,4 +1,4 @@
-# Git and Github
+## Git and Github
 
 What is Git?
 -> Free and open version control system.
@@ -7,7 +7,7 @@ What is Git?
 What is Version control system?
 -> The management of changes to documents, computer programs, large-webites, and other collections of information.
 
-## Terms
+### Terms
     Directory - Folder
     Terminal or Command Line - Interface for text commands
     CLI - Command Line Interface
@@ -16,9 +16,19 @@ What is Version control system?
     Repository - Project, or the folder/place where your project is kept
     Github - A webite to host your Repository online
 
-## Git Commands
+### Git Commands
     clone - Brings a Repository that is hosted somewhere like Github into a folder on your local machine
     add - track your files and changes in Git
     commit - save your files in Git
     push - upload git commits to a remote repo like Github
     pull - download changes from a remote repo to your local machine the opposite of push
+
+### Git Branching
+
+#### Command
+    git branch
+    git checkout -b branch_name // used to create a new branch
+    git checkout branch_name // used to switch between them
+    git diff branch_name
+    git push -u origin branch_name
+    git branch -d branch_name // used to delete temporary created branch
